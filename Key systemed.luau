@@ -655,7 +655,7 @@ local function tryValidate()
             print("[KeySystem] Authenticated. Premium:", res.isPremium)
           
 loadstring(game:HttpGet("https://raw.githubusercontent.com/oldhacfard/Oldy-libsry/refs/heads/main/Kit.luau"))()
-        
+ --paste your setting like ahc ones
         else
             status.Text = "✕  " .. tostring(res)
             status.TextColor3 = Color3.fromRGB(255, 100, 100)
